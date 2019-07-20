@@ -1,13 +1,6 @@
 <template id="news-page">
 	<div class="row">
-		<table class="table">
-				<tr>
-					 <td>
-						 Search:<input type=text size=20 class="input-sm" v-model="fd">
-						 <input type=button value="검색" class="btn btn-sm btn-success">
-					 </td>
-					</tr>
-				</table>
+
 				<table class="table">
 					<tr>
 						<td>

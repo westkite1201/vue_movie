@@ -1,5 +1,14 @@
 <template>
   <div class="home">
+	  		<table class="table">
+				<tr>
+					 <td>
+						 Search:<input type=text size=20 class="input-sm" v-model="fd">
+						 <input type=button value="검색" class="btn btn-sm btn-success"
+						 	 v-on:click="newsAllData">
+					 </td>
+					</tr>
+				</table>
     <News v-bind:news_data = "news_data"/>
   </div>
 </template>

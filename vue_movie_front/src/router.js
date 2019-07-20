@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import DetailPage from './views/DetailPage.vue'
 import News from './views/News.vue'
+import Fruit from './views/Fruit.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -24,6 +25,13 @@ export default new Router({
       path: '/news',
       name: 'news',
       component: News
+    },
+
+
+    {
+      path: '/fruit',
+      name: 'fruit',
+      component: Fruit
     },
 
     {
